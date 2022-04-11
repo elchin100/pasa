@@ -1,0 +1,313 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            background-color: #608AC4;
+                            background-image: linear-gradient(to right, #608ac4, #B4C8E3, #93B0D7, #608ac4);
+                            height: 100vh;
+                            overflow-y: hidden;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                        
+                        .container {
+                            padding: 0 3rem;
+                        }
+                        
+                        .header-all {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+                        
+                        .top {
+                            display: flex;
+                            align-items: center;
+                        }
+                        
+                        .t-left {
+                            border-right: 1px solid #fff;
+                            padding-right: 20px;
+                        }
+                        
+                        .t-right {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 20px;
+                        }
+                        
+                        .logo {
+                            width: 15%;
+                            margin-top: 15px;
+                        }
+                        
+                        .navbar {
+                            width: 80%;
+                        }
+                        
+                        .top a {
+                            font-size: 14px;
+                            color: #fff;
+                            margin-right: 15px;
+                        }
+                        
+                        .bottom {
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                        
+                        .bottom a {
+                            margin-right: 20px;
+                            font-size: 14px;
+                        }
+                        
+                        .bottom span,
+                        .ph-all .right span {
+                            border: 1px solid #fff;
+                            padding: 5px;
+                            color: #fff;
+                            border-radius: 4px;
+                            font-size: 13px;
+                            opacity: 0.7;
+                            margin-right: 20px;
+                        }
+                        
+                        .s-all {
+                            display: flex;
+                        }
+                        
+                        .s-all img {
+                            width: 100%;
+                            height: 100vh;
+                        }
+                        
+                        .s-all h1 {
+                            font-size: 50px;
+                        }
+                        
+                        #phone-header {
+                            position: sticky;
+                            top: 0;
+                            width: 100%;
+                            display: none;
+                        }
+                        
+                        .ph-all {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        
+                        .ph-all i {
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                        
+                        footer {
+                            bottom: 0px;
+                            width: 100%;
+                        }
+                        
+                        .f-all {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        
+                        .f-all .left {
+                            display: flex;
+                        }
+                        
+                        footer .left .company {
+                            color: #fff;
+                            font-size: 13px;
+                            display: flex;
+                            align-items: center;
+                            margin-left: 20px;
+                        }
+                        
+                        .company svg {
+                            margin: 0 8px;
+                        }
+                        
+                        .f-all .f-box {
+                            width: 50%;
+                        }
+                        
+                        .f-all .right {
+                            text-align: right;
+                        }
+                        
+                        footer i,
+                        span {
+                            color: #fff;
+                            font-size: 13px;
+                            margin-left: 10px;
+                        }
+                        
+                        .about {
+                            background-image: url(https://www.pasha-holding.az/site/assets/files/1033/shutterstock_527339023_copy_17.png);
+                            background-color: unset;
+                            height: auto;
+                            overflow-y: auto;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-attachment: fixed;
+                        }
+                        
+                        #About1 {
+                            background-color: whitesmoke;
+                        }
+                        
+                        #About1 span {
+                            color: green;
+                            border-radius: 3px green;
+                        }
+                        
+                        .new-header a,
+                        span {
+                            color: green;
+                        }
+                        
+                        .main-about {
+                            text-align: center;
+                            color: green;
+                            margin: 10% 0;
+                            font-size: 35px;
+                        }
+                        
+                        .main-box {
+                            width: 80%;
+                            border: 1px solid whitesmoke;
+                            background-color: whitesmoke;
+                            border-radius: 13px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: auto;
+                        }
+                        
+                        .main-box h1,
+                        p {
+                            color: black;
+                        }
+                        
+                        #phone-header1 span,
+                        i {
+                            color: green;
+                        }
+                        
+                        .container-1 {
+                            padding: 2rem 4rem;
+                        }
+                        
+                        .container-2 {
+                            padding: 4rem;
+                        }
+                        
+                        .sutun {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                        }
+                        
+                        .sutun h1,
+                        p {
+                            text-align: center;
+                            padding: 10px 0;
+                        }
+                        
+                        .all-little-photos {
+                            display: flex;
+                            width: 100%;
+                        }
+                        
+                        .little-photos {
+                            width: 24%;
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding: 5% 0;
+                            align-items: center;
+                            border: 2px solid black;
+                            border-radius: 5px;
+                            margin: 5%;
+                            opacity: 0.5;
+                            transition: 0.7s;
+                        }
+                        
+                        .little-photos img {
+                            width: 100%;
+                        }
+                        
+                        .little-photos:hover {
+                            opacity: 1;
+                        }
+                        
+                        #phone-header1 {
+                            display: none;
+                        }
+                        
+                        .mobile-little-photos {
+                            display: none;
+                        }
+                        
+                        @media (max-width: 576px) {
+                            header {
+                                display: none;
+                            }
+                            #phone-header {
+                                display: block;
+                            }
+                            #phone-header1 {
+                                display: block;
+                            }
+                            .footer {
+                                display: none;
+                            }
+                            .s-all {
+                                flex-direction: column;
+                            }
+                            .s-all .right {
+                                position: absolute;
+                                z-index: -1;
+                            }
+                            .main-about .all-assets {
+                                width: 100%;
+                                background-color: whitesmoke;
+                            }
+                            .container-1 {
+                                padding: 0;
+                            }
+                            .main-box,
+                            .sutun {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .all-little-photos {
+                                display: none;
+                            }
+                            .mobile-little-photos {
+                                display: block;
+                                width: 100%;
+                                display: flex;
+                                background-color: whitesmoke;
+                            }
+                            .little-photos-mobile {
+                                width: 49.5%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                align-items: center;
+                                padding: 3rem;
+                                margin: 1rem -1rem 1rem;
+                            }
+                            .little-photos-mobile img {
+                                width: 100%;
+                            }
+                        }
